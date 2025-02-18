@@ -7,4 +7,4 @@ router.get("/about", controller.getAbout);
 router.get("/courses", controller.getCourses);
 router.get("/team", controller.getTeam);
 router.get("/testimonial", controller.getTestimonial);
-router.get("/")
+router.get("/contact", controller.getContact);
