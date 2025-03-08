@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "E-Learning Project API",
+    "description": "Postman collection for E-Learning project API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Home Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/",
+          "host": ["{{baseUrl}}"],
+          "path": [""]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "About Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/about",
+          "host": ["{{baseUrl}}"],
+          "path": ["about"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Courses Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/courses",
+          "host": ["{{baseUrl}}"],
+          "path": ["courses"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Team Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/team",
+          "host": ["{{baseUrl}}"],
+          "path": ["team"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Testimonial Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/testimonial",
+          "host": ["{{baseUrl}}"],
+          "path": ["testimonial"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Contact Page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/contact",
+          "host": ["{{baseUrl}}"],
+          "path": ["contact"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
